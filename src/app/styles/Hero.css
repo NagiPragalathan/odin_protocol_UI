@@ -1,0 +1,27 @@
+.gradient-text {
+    background: linear-gradient(to right, rgba(249, 115, 22, 1), rgba(147, 68, 13, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .make-blur{
+    /* background: radial-gradient(circle, rgb(201 115 55 / 24%) -2%, rgb(162 75 15 / -13%) 82%); */
+    background: radial-gradient(circle, rgb(201 115 55 / 22%) -2%, rgb(162 75 15 / -13%) 82%);
+    left: 46%;
+    top: 0%;
+    width: 124%;
+    height: 100%;
+  }
+
+  .animate-spin-reverse {
+    animation: spin-reverse 6s linear infinite; /* Increase duration to slow down */
+  }
+  @keyframes spin-reverse {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  
