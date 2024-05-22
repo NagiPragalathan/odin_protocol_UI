@@ -2,7 +2,7 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div className='flex flex-row justify-between items-center w-full py-[24px] px-[80px] h-[90px] sticky top-0 gap-8 '>
+    <div className='flex flex-row justify-between items-center w-full py-[24px] px-[80px] h-[90px] sticky top-0 gap-8' style={{ background:"rgba(0, 0, 0, 0.5)", backdropFilter: "blur(6px)" }}>
         <div className='font-semibold text-base leading-6 '>
           ODIN Protocol
         </div>

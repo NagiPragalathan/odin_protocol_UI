@@ -8,7 +8,7 @@ const Hero = () => {
             <div className='w-full h-fit flex flex-col justify-center items-center'>
                 <img src="./images/HeroSection/DIN.png" className='w-[403px] h-[107px]'/>
             </div>
-            <div className='absolute right-0 top-[170px] w-[710px] h-[710px] flex flex-col items-end object-cover'>
+            <div className='absolute right-0 top-[170px] w-[750px] h-[750px] flex flex-col items-end object-cover'>
                 <div className='w-full h-full relative ' style={{overflow:"hidden"}}>
                     <img src="./images/HeroSection/outer_circle.png" className='absolute left-[43%] animate-spin-reverse'/>
                     <img src="./images/HeroSection/inner_image.png" className='absolute left-[43%]'/>
